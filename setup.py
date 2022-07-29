@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="iWAN",
-    version="0.0.2",
+    version="0.0.3",
     author="vSir",
     author_email="weiguo341@gmail.com",
     description="simple tool",
