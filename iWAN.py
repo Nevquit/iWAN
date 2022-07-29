@@ -65,7 +65,7 @@ class iWAN:
 if __name__ == '__main__':
     request_src = {"jsonrpc":"2.0","method":"getBalance","params":{"address":"0x8b157B3fFEAD48C8a4CDC6bddBE1C1D170049Da4", "chainType":"WAN"},"id":1}
     url = 'wss://apitest.wanchain.org:8443/ws/v3/'
-    secretkey = '0ea7cb639be0a1c9bf2073f617bee4be66c7c4d1d0e14853ce3a8410d74a31cb'
-    Apikey = '1bd59d5aecabc6411a59d5c1daaf3dfde2889627b97d5d5acb05958f4bf9a317'
+    secretkey = '0ead74a31cb'
+    Apikey = '1bd599a317'
     iwan = iWAN(url,secretkey,Apikey)
     print(json.dumps(iwan.sendRequest(request_src)))
