@@ -1,14 +1,14 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="iWAN",
-    version="0.0.3",
+    name="iwan",
+    version="0.1.0",
     author="vSir",
     author_email="weiguo341@gmail.com",
-    description="simple tool",
+    description="iWAN client for Wanchain",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Nevquit/iWAN",
@@ -18,7 +18,8 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
     install_requires=[
-    'websocket-client==0.58.0'
-    ]
+        "websocket-client>=0.58.0"
+    ],
 )
