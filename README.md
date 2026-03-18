@@ -35,7 +35,7 @@ request = {
     "jsonrpc": "2.0",
     "method": "getBalance",
     "params": {
-        "address": "0x8b157B3fFEAD48C8a4CDC6bddBE1C1D170049Da4",
+        "address": "your_wanchain_address",
         "chainType": "WAN"
     }
 }
